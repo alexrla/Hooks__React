@@ -1,0 +1,19 @@
+.content    {
+    background-color: #FEFFFF;
+
+    display: flex;
+
+    flex-grow: 1;
+
+    margin-left: 140px;
+    
+    padding: 30px;
+}
+
+.content > * {
+    display: flex;
+    
+    flex-direction: column;
+
+    flex-grow: 1;
+}
